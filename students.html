@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Management</title>
+</head>
+<body>
+    <h1>Students Management</h1>
+
+    <h2>Add Student</h2>
+    <form id="addStudentForm">
+        <label for="rollNo">Roll No:</label>
+        <input type="text" id="rollNo" name="rollNo"><br><br>
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="studentName"><br><br>
+        <label for="course">Course:</label>
+        <input type="text" id="course" name="course"><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+        <input type="submit" value="Add Student">
+    </form>
+
+    <h2>Delete Student</h2>
+    <form id="deleteStudentForm">
+        <label for="rollNoDelete">Roll No:</label>
+        <input type="text" id="rollNoDelete" name="rollNoDelete"><br><br>
+        <input type="submit" value="Delete Student">
+    </form>
+
+    <h2>Update Student</h2>
+    <form id="updateStudentForm">
+        <label for="rollNoUpdate">Roll No:</label>
+        <input type="text" id="rollNoUpdate" name="rollNoUpdate"><br><br>
+        <label for="studentNameUpdate">Student Name:</label>
+        <input type="text" id="studentNameUpdate" name="studentNameUpdate"><br><br>
+        <label for="courseUpdate">Course:</label>
+        <input type="text" id="courseUpdate" name="courseUpdate"><br><br>
+        <label for="dobUpdate">Date of Birth:</label>
+        <input type="date" id="dobUpdate" name="dobUpdate"><br><br>
+        <input type="submit" value="Update Student">
+    </form>
+
+    <h2>View All Students</h2>
+    <button id="viewAllStudentsBtn">View All Students</button>
+
+    <div id="studentsResult"></div>
+
+    <script src="students.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Management</title>
+</head>
+<body>
+    <h1>Enrollment Management</h1>
+
+    <h2>Add Enrollment</h2>
+    <form id="addEnrollmentForm">
+        <label for="rollNo">Roll No:</label>
+        <input type="text" id="rollNo" name="rollNo"><br><br>
+        <label for="socId">Society ID:</label>
+        <input type="text" id="socId" name="socId"><br><br>
+        <label for="dateOfEnrollment">Date of Enrollment:</label>
+        <input type="date" id="dateOfEnrollment" name="dateOfEnrollment"><br><br>
+        <input type="submit" value="Add Enrollment">
+    </form>
+
+    <h2>Delete Enrollment</h2>
+    <form id="deleteEnrollmentForm">
+        <label for="rollNoDelete">Roll No:</label>
+        <input type="text" id="rollNoDelete" name="rollNoDelete"><br><br>
+        <label for="socIdDelete">Society ID:</label>
+        <input type="text" id="socIdDelete" name="socIdDelete"><br><br>
+        <input type="submit" value="Delete Enrollment">
+    </form>
+
+    <h2>Update Enrollment</h2>
+    <form id="updateEnrollmentForm">
+        <label for="rollNoUpdate">Roll No:</label>
+        <input type="text" id="rollNoUpdate" name="rollNoUpdate"><br><br>
+        <label for="socIdUpdate">Society ID:</label>
+        <input type="text" id="socIdUpdate" name="socIdUpdate"><br><br>
+        <label for="dateOfEnrollmentUpdate">Date of Enrollment:</label>
+        <input type="date" id="dateOfEnrollmentUpdate" name="dateOfEnrollmentUpdate"><br><br>
+        <input type="submit" value="Update Enrollment">
+    </form>
+
+    <h2>View All Enrollments</h2>
+    <button id="viewAllEnrollmentsBtn">View All Enrollments</button>
+
+    <div id="enrollmentResult"></div>
+
+    <script src="enrollment.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Society Management</title>
+</head>
+<body>
+    <h1>Society Management</h1>
+
+    <h2>Add Society</h2>
+    <form id="addSocietyForm">
+        <label for="socId">Society ID:</label>
+        <input type="text" id="socId" name="socId"><br><br>
+        <label for="socName">Society Name:</label>
+        <input type="text" id="socName" name="socName"><br><br>
+        <label for="mentorName">Mentor Name:</label>
+        <input type="text" id="mentorName" name="mentorName"><br><br>
+        <label for="totalSeats">Total Seats:</label>
+        <input type="number" id="totalSeats" name="totalSeats"><br><br>
+        <input type="submit" value="Add Society">
+    </form>
+
+    <h2>Delete Society</h2>
+    <form id="deleteSocietyForm">
+        <label for="socIdDelete">Society ID:</label>
+        <input type="text" id="socIdDelete" name="socIdDelete"><br><br>
+        <input type="submit" value="Delete Society">
+    </form>
+
+    <h2>Update Society</h2>
+    <form id="updateSocietyForm">
+        <label for="socIdUpdate">Society ID:</label>
+        <input type="text" id="socIdUpdate" name="socIdUpdate"><br><br>
+        <label for="socNameUpdate">Society Name:</label>
+        <input type="text" id="socNameUpdate" name="socNameUpdate"><br><br>
+        <label for="mentorNameUpdate">Mentor Name:</label>
+        <input type="text" id="mentorNameUpdate" name="mentorNameUpdate"><br><br>
+        <label for="totalSeatsUpdate">Total Seats:</label>
+        <input type="number" id="totalSeatsUpdate" name="totalSeatsUpdate"><br><br>
+        <input type="submit" value="Update Society">
+    </form>
+
+    <h2>View All Societies</h2>
+    <button id="viewAllSocietiesBtn">View All Societies</button>
+
+    <div id="societyResult"></div>
+
+    <script src="society.js"></script>
+</body>
+</html>
